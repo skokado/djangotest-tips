@@ -1,3 +1,10 @@
 {
-    "python.pythonPath": "/home/skokado/.local/share/virtualenvs/djangotest-tips-e51YMNcy/bin/python"
+    "python.pythonPath": "/home/skokado/.local/share/virtualenvs/djangotest-tips-e51YMNcy/bin/python",
+    "python.testing.pytestArgs": [
+        "tests",
+        "--no-cov"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }

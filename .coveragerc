@@ -1,0 +1,8 @@
+[run]
+branch = True
+# カバレッジ計測から除外するモジュールの記載
+omit = 
+    tests/*
+    test*.py
+    */test*.py
+    */migrations/*
