@@ -2,7 +2,6 @@ from django.contrib import admin
 
 from account.models import User
 from blog.models import Post
-# Register your models here.
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
